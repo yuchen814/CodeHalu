@@ -1,2 +1,2 @@
 # CodeHalu
-The codes are coming soon.
+The README is coming soon.
