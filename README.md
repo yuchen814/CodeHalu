@@ -1,6 +1,6 @@
 # CodeHalu: Code Hallucinations in LLMs Driven by Execution-based Verification
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg?style=flat-square)
-[![Research Paper](https://img.shields.io/badge/Paper-brightgreen.svg?style=flat-square)](https://https://arxiv.org/abs/2405.00253)
+[![Research Paper](https://img.shields.io/badge/Paper-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2405.00253)
 [![Huggingface Dataset](https://img.shields.io/badge/Dataset-blue.svg?style=flat-square)](https://huggingface.co/datasets/Yuchen111/CodeHaluEval)
 <!-- <div style="text-align: center; font-size:14pt">
     <a href="https://arxiv.org/abs/2404.09486">Paper</a> | 
