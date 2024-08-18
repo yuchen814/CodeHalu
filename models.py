@@ -15,7 +15,6 @@ import numpy as np
 from openai import OpenAI, BadRequestError
 
 import transformers
-from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 from huggingface_hub import login
 import deepspeed
@@ -26,7 +25,7 @@ import erniebot
 
 erniebot_api_type = 'aistudio'
 erniebot_api_key = ''
-gen_api_key = ''
+gemini_api_key = ''
 openai_api_key = ''
 claude_api_key=''
 
@@ -170,7 +169,7 @@ class GEMINI_PRO:
         import google.generativeai as genai
         # Get Google API Key from environment variable
 #         api_key = os.environ["GOOGLE_API_KEY"]
-        api_key = gen_api_key
+        api_key = gemini_api_key
         genai.configure(api_key=api_key)
         self.genai_package = genai
         self.client = genai.GenerativeModel('gemini-pro')
