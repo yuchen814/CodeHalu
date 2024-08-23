@@ -41,10 +41,13 @@ python eval.py \
 # Citation
 Please consider citing if you find our work useful:
 ```plain
-@article{tian2024codehalu,
-  title={CodeHalu: Code Hallucinations in LLMs Driven by Execution-based Verification},
-  author={Tian, Yuchen and Yan, Weixiang and Yang, Qian and Chen, Qian and Wang, Wen and Luo, Ziyang and Ma, Lei},
-  journal={arXiv preprint arXiv:2405.00253},
-  year={2024}
+@misc{tian2024codehaluinvestigatingcodehallucinations,
+      title={CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification}, 
+      author={Yuchen Tian and Weixiang Yan and Qian Yang and Xuandong Zhao and Qian Chen and Wen Wang and Ziyang Luo and Lei Ma and Dawn Song},
+      year={2024},
+      eprint={2405.00253},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2405.00253}, 
 }
 ```
